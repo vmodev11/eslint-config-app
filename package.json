@@ -1,0 +1,11 @@
+{
+  "name": "react-test-eslint",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com-huyhavmodev:vmodev11/react-test-eslint.git",
+  "author": "huyha <huy.ha@vmodev.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.2"
+  }
+}
