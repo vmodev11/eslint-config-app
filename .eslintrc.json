@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended"],
+  "rules": {
+    "import/newline-after-import": "error",
+    "import/order": "error",
+    "curly": "error",
+    "object-shorthand": "error",
+    "react/jsx-no-bind": "error",
+    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-fragments": ["error", "syntax"],
+    "react/jsx-no-literals": "error",
+    "react/self-closing-comp": [
+      "error",
+      {
+        "component": true,
+        "html": true
+      }
+    ]
+  }
+}
