@@ -3,19 +3,15 @@
   "extends": ["react-app", "react-app/jest", "plugin:prettier/recommended"],
   "rules": {
     "import/newline-after-import": "error",
-    "import/order": "error",
+    "import/order": ["error", { "alphabetize": { "order": "asc", "caseInsensitive": true } }],
+    "newline-before-return": "error",
     "curly": "error",
     "object-shorthand": "error",
     "react/jsx-no-bind": "error",
     "react/jsx-no-useless-fragment": "error",
     "react/jsx-fragments": ["error", "syntax"],
     "react/jsx-no-literals": "error",
-    "react/self-closing-comp": [
-      "error",
-      {
-        "component": true,
-        "html": true
-      }
-    ]
+    "react/jsx-sort-props": "error",
+    "react/self-closing-comp": "error"
   }
 }
